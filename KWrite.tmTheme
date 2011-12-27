@@ -49,7 +49,6 @@
 				<string>#0000ff</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>String</string>
@@ -180,6 +179,33 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Keyword ini</string>
+			<key>scope</key>
+			<string>keyword.name.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6f06b0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword ini</string>
+			<key>scope</key>
+			<string>keyword.name.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#6f06b0</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Keyword phpdoc</string>
 			<key>scope</key>
 			<string>keyword.other.phpdoc</string>
@@ -235,6 +261,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#005912</string>
 			</dict>
 		</dict>
 		<dict>
@@ -245,9 +273,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#858585</string>
+				<string>#005912</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,7 +310,6 @@
 				<string>#21005a</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Tag name</string>
