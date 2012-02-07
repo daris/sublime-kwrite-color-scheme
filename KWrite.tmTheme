@@ -312,6 +312,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Namespace</string>
+			<key>scope</key>
+			<string>meta.namespace, support.other.namespace</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#3269c2</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
 			<string>entity.name.tag</string>
