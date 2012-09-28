@@ -27,7 +27,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, comment.block</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -645,6 +645,154 @@
 				<string>#898887</string>
 			</dict>
 		</dict>
+
+		<!-- SublimeLinter -->
+<!--		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Annotations</string>
+		    <key>scope</key>
+		    <string>sublimelinter</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#ffffff</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Annotations</string>
+		    <key>scope</key>
+		    <string>sublimelinter.notes</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FFFFAA</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Error Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.illegal</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FF4A52</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Error Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.illegal</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FF0000</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Warning Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.warning</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#DF9400</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Warning Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.warning</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FF0000</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Violation Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.violation</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#ffffff33</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Violation Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.violation</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FF0000</string>
+		    </dict>
+		</dict>
+-->
+
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>47536290-6FC1-4B09-A08F-B219909E1A69</string>
